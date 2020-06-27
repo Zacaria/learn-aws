@@ -9,7 +9,7 @@ const ec2 = new AWS.EC2()
 // Declare local variables
 // TODO: Create an ec2 object
 
-createImage('i-07318294853fb37e4', 'hamsterImage')
+createImage('i-0266a6aac806fe342', 'hamsterImage')
 .then(() => console.log('Complete'))
 
 function createImage (seedInstanceId, imageName) {
